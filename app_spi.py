@@ -35,7 +35,7 @@ categories = [
 if "results" not in st.session_state:
     st.session_state["results"] = []
 
-st.title("SPI Extraction and Categorization from CVC Upload")
+st.title("SPI Extraction and Categorization from CVC Upload new")
 
 # Step 1: Upload document
 uploaded_file = st.file_uploader("Upload a CVC or traffic law .txt file", type=["txt"])
