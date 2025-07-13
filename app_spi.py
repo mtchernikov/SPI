@@ -5,6 +5,7 @@ final_app_code = {
 import streamlit as st
 import os
 import openai
+from pathlib import Path
 from langchain.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
